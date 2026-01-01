@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="trail-container"></div>
+    
+    <nav class="navbar" style="display: none;">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#works" class="nav-link">Works</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <canvas id="particlesCanvas"></canvas>
+            <div class="titles-container">
+                <div class="title-item" data-text="Home">Home</div>
+                <div class="title-item" data-text="Works">Works</div>
+                <div class="title-item" data-text="About">About</div>
+                <div class="title-item" data-text="Contact">Contact</div>
+            </div>
+        </section>
+
+        <section id="works" class="works">
+            <h2 class="section-title">Works</h2>
+            <div class="works-grid">
+                <div class="work-item">
+                    <div class="work-image"></div>
+                    <h3 class="work-title">Project 1</h3>
+                    <p class="work-description">Project description</p>
+                </div>
+                <div class="work-item">
+                    <div class="work-image"></div>
+                    <h3 class="work-title">Project 2</h3>
+                    <p class="work-description">Project description</p>
+                </div>
+                <div class="work-item">
+                    <div class="work-image"></div>
+                    <h3 class="work-title">Project 3</h3>
+                    <p class="work-description">Project description</p>
+                </div>
+                <div class="work-item">
+                    <div class="work-image"></div>
+                    <h3 class="work-title">Project 4</h3>
+                    <p class="work-description">Project description</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="section-title">About</h2>
+                <p class="about-text">
+                    I am an artist exploring the boundaries between reality and imagination. 
+                    My work reflects the inner world and emotions through various techniques and materials.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-info">
+                <a href="mailto:artist@example.com" class="contact-link">artist@example.com</a>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Behance</a>
+                    <a href="#" class="social-link">Dribbble</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Artist. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
